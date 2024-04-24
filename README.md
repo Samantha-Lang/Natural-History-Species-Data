@@ -1,15 +1,11 @@
 # Natural History Species Data
-Species Type Data and Computational Analysis from Natural History Museum of London. ADD FURTHER COPY FOR DESCRIPTION
+Species Type Data and Computational Analysis from Natural History Museum of London. Looking at 4 types of species at the NHML.
 
 
-Unordered List
-— what's here
-- where it came from
-- what you can do with it
+# What is here?
+— Dataset taken from csv. file of original Natural History Museum dataset
+- Bar graph taking the four species and how many are found in the Natural History Museum of London
+- Narrowed dataset after coding only those four rows
 
 
-## What's here
-
-## Where it came from
-
-[Hyperlink to Data Source](ADD URL)
+## [Hyperlink to Data Source](https://colab.research.google.com/drive/1MXLZo8RTayuao2tWTdAyKFj_8XLNjMq2)
