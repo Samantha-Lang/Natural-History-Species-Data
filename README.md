@@ -16,5 +16,5 @@ To draw a comparison between species and their phylum, class, size and type.
 # Data Visualization 
 <img width="624" alt="Screenshot 2024-04-19 at 11 00 43 AM" src="https://github.com/Samantha-Lang/Natural-History-Species-Data/assets/167785490/bada307e-1fd1-4efe-89cb-99348cd60376">
 
-# [Hyperlink to coding in CoLab and Procedural Steps](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/code/Columns_subset.csv)
-# 
+# [code](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/code/Columns_subset.csv)
+# [Hyperlink to coding in CoLab and Procedural Steps](https://colab.research.google.com/drive/1MXLZo8RTayuao2tWTdAyKFj_8XLNjMq2)
