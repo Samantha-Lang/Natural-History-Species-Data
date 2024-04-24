@@ -3,7 +3,7 @@ Species Type Data and Computational Analysis from Natural History Museum of Lond
 
 
 # What is here?
-— [Original dataset.csv](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/Original%20dataset.csv): Dataset taken from csv. file of original Natural History Museum dataset
+- [Original dataset.csv](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/Original%20dataset.csv): Dataset taken from csv. file of original Natural History Museum dataset
 
 - [Columns_subset.csv](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/code/Columns_subset.csv): Narrowed dataset after coding only those four rows
   
