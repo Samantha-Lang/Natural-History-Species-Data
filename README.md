@@ -9,7 +9,7 @@ Species Type Data and Computational Analysis from Natural History Museum of Lond
   
 - Data Visualization: Bar graph taking the four species and how many are found in the Natural History Museum of London
 
-- [Workbook 3.1 feeder] (https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/workbook%203.1.ipynb): procedural steps laid out
+- [Workbook feeder 3.1](https://github.com/Samantha-Lang/Natural-History-Species-Data/blob/main/workbook%203.1.ipynb): procedural steps to recreate the repository
 
   
 ## [Hyperlink to coding in CoLab and Procedural Steps](https://colab.research.google.com/drive/1MXLZo8RTayuao2tWTdAyKFj_8XLNjMq2)
