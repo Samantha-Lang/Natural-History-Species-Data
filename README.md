@@ -16,12 +16,13 @@ Species Type Data and Computational Analysis from Natural History Museum of Lond
 To draw a comparison between species and their phylum, class, size and type.
 
 # Steps
-Dataset Natural History Museum INITIAL STEPS Start by implementing this instruction into CoLab
+Dataset Natural History Museum 
+1. INITIAL STEPS Start by implementing this instruction into CoLab
 [ ]
  import numpy as np
 import pandas as pd
 
-Naming this CSV file in CoLab. This is in place in order to use "chd" instead of typing out the long address.
+2. Naming this CSV file in CoLab. This is in place in order to use "chd" instead of typing out the long address.
 [ ]
  chd=pd.read_csv("resource.csv")
  <ipython-input-13-23fcbec2ea1a>:1: DtypeWarning: Columns (22) have mixed types. Specify dtype option on import or set low_memory=False.
@@ -29,11 +30,11 @@ Naming this CSV file in CoLab. This is in place in order to use "chd" instead of
 [ ]
  from google.colab import drive
 drive.mount('/content/drive')
-To get the first 4 rows, type:
+3. To get the first 4 rows, type:
 [ ]
  chd [0:4]
  
-The chart will show -order -phylum -scientificName -specificEpithet -subfamily -subgenus -suborder -superfamily -taxonRank -type You can also get down to one category you're focusing on. This is important to narrowing down specific interests. For example, if you just want to find PHYLUMS:
+4. The chart will show -order -phylum -scientificName -specificEpithet -subfamily -subgenus -suborder -superfamily -taxonRank -type You can also get down to one category you're focusing on. This is important to narrowing down specific interests. For example, if you just want to find PHYLUMS:
 [ ]
  chd ["phylum"][0:4]
  0    Arthropoda
@@ -41,11 +42,11 @@ The chart will show -order -phylum -scientificName -specificEpithet -subfamily -
 2    Arthropoda
 3    Arthropoda
 Name: phylum, dtype: object
-You can combine them making a broader search. Sticking with only 4 rows as results:
+5. You can combine them making a broader search. Sticking with only 4 rows as results:
 [ ]
  chd [["phylum" , "scientificName" , "specificEpithet" , "subfamily"]] [0:4] =="Columns"
  
-Only finding NaN (specific column) This will ONLY narrow down the columns, there are many rows still: 0 NaN 1 NaN 2 NaN 3 NaN 4 NaN ... 824749 NaN 824750 NaN 824751 NaN 824752 NaN 824753 NaN
+6. Only finding NaN (specific column) This will ONLY narrow down the columns, there are many rows still: 0 NaN 1 NaN 2 NaN 3 NaN 4 NaN ... 824749 NaN 824750 NaN 824751 NaN 824752 NaN 824753 NaN
 [ ]
  chd.iloc[:,3]
  0       NaN
@@ -60,7 +61,7 @@ Only finding NaN (specific column) This will ONLY narrow down the columns, there
 62050   NaN
 62051   NaN
 Name: associatedMedia.category, Length: 62052, dtype: float64
-This is another specific search option. This is important because it adds another aspect in the process of narrowing the data down and identifies the #s associated with just TR.
+7. This is another specific search option. This is important because it adds another aspect in the process of narrowing the data down and identifies the #s associated with just TR.
 [ ]
 chd[chd["taxonRank"]== "TR"]
 
